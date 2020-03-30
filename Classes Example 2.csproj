@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Classes_Example_2
+{
+    
+        class Program
+        {
+            static void Main(string[] args)
+            {
+            Vehicle Car = new Vehicle();
+            Car.Type = "Car";
+            Car.Age = 23;
+            Car.Model = "Fiesta";
+
+            Car.Identify();
+
+            var Van = new Vehicle("Van");
+            Van.CheckAge(5);
+
+var Harley = new Motorcycle();
+Harley.Type = "Crusier";
+Harley.Model = "4567";
+Harley.Identify();
+
+
+
+            }
+        }
+    }
